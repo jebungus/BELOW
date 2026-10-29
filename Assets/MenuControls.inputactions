@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "name": "MenuControls",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "273e284f-57bb-4a9c-ae37-6bd4048f33a0",
+            "actions": [
+                {
+                    "name": "ChangeSceneBind",
+                    "type": "Button",
+                    "id": "0b167825-2a8a-46b6-928a-2ac40d1e4064",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f8090cff-faab-4fd5-abf6-70e71bc64b0f",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeSceneBind",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c8ac77c-681a-4e2b-9e47-f610e33feda1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeSceneBind",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
